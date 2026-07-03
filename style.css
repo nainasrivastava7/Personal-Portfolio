@@ -605,26 +605,6 @@ body {
 }
 
 /* Category Specific Accents */
-[data-category="frontend"] {
-    --category-accent: #3b82f6;
-    --category-accent-light: rgba(59, 130, 246, 0.08);
-}
-
-[data-category="backend"] {
-    --category-accent: #10b981;
-    --category-accent-light: rgba(16, 185, 129, 0.08);
-}
-
-[data-category="database"] {
-    --category-accent: #f59e0b;
-    --category-accent-light: rgba(245, 158, 11, 0.08);
-}
-
-[data-category="devops"] {
-    --category-accent: #8b5cf6;
-    --category-accent-light: rgba(139, 92, 246, 0.08);
-}
-
 [data-category="core"] {
     --category-accent: #ec4899;
     --category-accent-light: rgba(236, 72, 153, 0.08);
@@ -634,6 +614,22 @@ body {
     --category-accent: #f97316;
     --category-accent-light: rgba(249, 115, 22, 0.08);
 }
+
+[data-category="technologies"] {
+    --category-accent: #10b981;
+    --category-accent-light: rgba(16, 185, 129, 0.08);
+}
+
+[data-category="libraries"] {
+    --category-accent: #3b82f6;
+    --category-accent-light: rgba(59, 130, 246, 0.08);
+}
+
+[data-category="tools"] {
+    --category-accent: #8b5cf6;
+    --category-accent-light: rgba(139, 92, 246, 0.08);
+}
+
 
 @media (max-width: 900px) {
     .skills-grid {
